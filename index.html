@@ -1,0 +1,293 @@
+﻿<!doctype html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>  
+<script type="text/javascript" src="js/jquery.js"></script> 	
+<link rel="stylesheet" href="css/comon0.css">  
+</head>
+<body>
+<!-- <div class="loading">  
+  <div class="loadbox"> <img src="images/loading.gif"> 页面加载中... </div>
+</div> -->
+<!-- <div class="head">
+  <h1>智慧工厂数字大屏</h1> 
+  <div class="time" id="showTime">2019/11/29 0:12:42</div>  
+		<script>
+var t = null;
+    t = setTimeout(time,1000);//開始运行
+    function time()
+    {
+       clearTimeout(t);//清除定时器
+       dt = new Date();
+		var y=dt.getFullYear();
+		var mt=dt.getMonth()+1;
+		var day=dt.getDate();
+       var h=dt.getHours();//获取时
+       var m=dt.getMinutes();//获取分
+       var s=dt.getSeconds();//获取秒
+		var t = null;
+       document.getElementById("showTime").innerHTML = y+"/"+Appendzero(mt)+"/"+Appendzero(day)+" "+Appendzero(h)+":"+Appendzero(m)+":"+Appendzero(s)+"";
+        function Appendzero(obj){
+			if(obj<10) return "0" +""+ obj;
+			else return obj;
+		 }
+		t = setTimeout(time,1000); //设定定时器，循环运行     
+    } 
+
+</script>
+	
+</div> -->
+
+  <div class="mapbox">
+		<div class="map">
+        <div class="map1"><img src="images/lbx.png"></div>
+        <div class="map2"><img src="images/jt.png"></div>
+        <div class="map3"><img src="images/map.png"></div>
+        <div class="map4" id="map_1"></div>
+      </div>
+		</div>
+  //主内容区
+  <!-- <ul class="clearfix"> -->
+    <!-- <li> -->
+      <!-- <div class="boxall" style="height: calc(40% - .15rem)">
+        <div class="alltitle">区域经营部 </div>
+        <div class="sycm">
+          <ul class="clearfix">
+            <li>
+              <h2>1.25万㎡</h2>
+              <span>华东地区</span></li>
+            <li>
+              <h2>0.47万㎡</h2>
+              <span>西北地区</span></li>
+            <li>
+              <h2>1.21万㎡</h2>
+              <span>华南地区</span></li>
+         
+            <li>
+              <h2>0.42万㎡</h2>
+              <span>华北地区</span></li>
+           
+          </ul>
+        </div>
+        <div class="boxfoot"></div>
+      </div> -->
+      <!-- <div class="boxall" style="height: calc(60% - .15rem)">
+        <div class="alltitle">在制情况</div>
+   <div class="sycm sycm2">
+          <ul class="clearfix">
+            <li>
+              <h2>7.91万㎡</h2>
+              <span>铝模板生产</span></li>
+            <li>
+              <h2>7.91万㎡</h2>
+              <span>铝模板租售</span></li>
+            <li>
+              <h2>5万㎡</h2>
+              <span>铝模板库存</span></li>
+
+         
+            <li>
+              <h2>493套</h2>
+              <span>箱式房生产</span></li>
+           <li>
+              <h2>111套</h2>
+              <span>箱式房租售</span></li>
+         
+            <li>
+              <h2>300套</h2>
+              <span>箱式房库存</span></li>
+           
+          </ul>
+        </div>
+        <div class="boxfoot"></div>
+      </div> -->
+      
+    <!-- </li> -->
+    <!-- <li> -->
+     <!-- <div style="position: relative">
+		<div class="barnav">
+			
+			 <div class="bar">
+        <div class="barbox">
+          <ul class="clearfix">
+            <li class="pulll_left counter">7.91</li>
+            <li class="pulll_left counter">251</li>
+            <li class="pulll_left counter">493</li>
+          </ul>
+        </div>
+        <div class="barbox2">
+          <ul class="clearfix">
+            <li class="pulll_left">铝模产值（万㎡）</li>
+            <li class="pulll_left">脚手架产值（万元）</li>
+            <li class="pulll_left">箱房产值（套）</li>
+          </ul>
+        </div>
+		  
+      </div>
+		</div>
+		 </div> -->
+     
+    <!-- </li> -->
+    <!-- <li> -->
+      
+      <!-- <div class="boxall" style="height: calc(50% - .15rem)">
+        <div class="alltitle">今日生产现场情况及计划</div>
+        <div class="wrap1 boxnav"  >
+          <ul>
+            <li><p><span>人员情况</span><span>应到岗76人，实到岗74人，请假2人</span></p></li>
+            <li><p><span>设备情况</span><span>设备正常</span></p></li>
+            <li><p><span>项目情况</span><span>1、今日广州横沥6#项目需收尾完成<br>
+              2、今日长沙花园12#栋项目表处完成
+            </span>
+            </p></li>
+
+            <li><p><span>发货计划</span><span>暂无发货计划
+              </span></p></li>
+			<li><p><span>返厂计划</span><span>暂无返厂计划</span></p></li>
+			<li><p><span>异常报备</span><span>设备正常运转，无异常</span></p></li>
+			<li><p><span>重要通知</span><span>作息时间调整通知：<br>
+        上午8：00-12:00，下午14:00-18：00</span></p></li>
+			<li><p><span>温馨提示</span><span>今日高温35℃，请合理服用防暑药物。</span></p></li>
+          </ul>
+        </div>
+        <!-- <div class="boxnav" id="echart3"></div> -->
+        
+        <!-- <div class="boxfoot"></div> -->
+      <!-- </div>  -->
+      <!-- <div class="boxall" style="height: calc(50% - .15rem)"> -->
+        <!-- <div class="alltitle">租赁项目</div>
+        <div class="wrap boxnav"  >
+          <ul>
+            <li><p><span>邯郸滏水左岸7#2单元</span><span>23.12.27</span><span>1415㎡</span></p></li>
+            <li><p><span>邯郸滏水左岸7#1单元</span><span>24.1.18</span><span>1424㎡</span></p></li>
+            <li><p><span>邯郸滏水左岸6#1单元</span><span>24.3.21</span><span>1423㎡</span></p></li>
+
+            <li><p><span>合肥包河5#</span><span>24.1.28</span><span>1181㎡</span></p></li>
+			<li><p><span>合肥包河样板间</span><span>24.2.4</span><span>76㎡</span></p></li>
+			<li><p><span>合肥包河6#</span><span>24.2.20</span><span>1235㎡</span></p></li>
+			<li><p><span>合肥包河3#-1</span><span>24.2.22</span><span>636㎡</span></p></li>
+			<li><p><span>合肥包河3#-2</span><span>24.2.24</span><span>641㎡</span></p></li>
+			<li><p><span>合肥包河7#</span><span>24.2.25</span><span>1250㎡</span></p></li>
+			<li><p><span>合肥包河16#</span><span>24.3.5</span><span>592㎡</span></p></li>
+			<li><p><span>合肥包河15#-1</span><span>24.3.8</span><span>600㎡</span></p></li>
+			<li><p><span>合肥包河15#-2</span><span>24.3.8</span><span>602㎡</span></p></li>
+			<li><p><span>张家港地下室1#导墙</span><span>24.3.10</span><span>35㎡</span></p></li>
+			<li><p><span>张家港地下室6#反坎</span><span>24.3.10</span><span>59㎡</span></p></li>
+			<li><p><span>张家港地下室10#反坎</span><span>24.3.10</span><span>59㎡</span></p></li>
+			<li><p><span>张家港地下室1#后浇</span><span>24.3.17</span><span>122㎡</span></p></li>
+			<li><p><span>张家港地下室2#后浇</span><span>24.3.17</span><span>154㎡</span></p></li>
+			<li><p><span>张家港地下室3#后浇</span><span>24.3.17</span><span>114㎡</span></p></li>
+			<li><p><span>张家港地下室1#</span><span>24.3.17</span><span>1667㎡</span></p></li>
+			<li><p><span>张家港地下室8#反坎</span><span>24.3.17</span><span>87㎡</span></p></li>
+			<li><p><span>张家港地下室12#反坎</span><span>24.3.17</span><span>87㎡</span></p></li>
+			<li><p><span>张家港地下室2#</span><span>24.3.20</span><span>1282㎡</span></p></li>
+			<li><p><span>张家港地下室3#</span><span>24.3.21</span><span>2017㎡</span></p></li>
+			
+			<li><p><span>广州横沥2#</span><span>24.1.9</span><span>1965㎡</span></p></li>
+			<li><p><span>广州横沥1#</span><span>24.1.20</span><span>2220㎡</span></p></li>
+
+			<li><p><span>智谷壹品B8#地下室</span><span>24.1.20</span><span>51㎡</span></p></li>
+			<li><p><span>智谷壹品17#</span><span>24.2.1</span><span>1259㎡</span></p></li>
+			<li><p><span>长沙花园5#</span><span>24.2.5</span><span>1155㎡</span></p></li>
+			<li><p><span>长沙花园1#</span><span>24.2.16</span><span>906㎡</span></p></li>
+			<li><p><span>长沙花园2#</span><span>24.2.27</span><span>1847㎡</span></p></li>
+			<li><p><span>长沙花园3#</span><span>24.3.4</span><span>1485㎡</span></p></li>
+			<li><p><span>长沙花语样板间</span><span>24.3.5</span><span>38㎡</span></p></li>
+			<li><p><span>长沙花园6#</span><span>24.3.13</span><span>1208㎡</span></p></li>
+
+			<li><p><span>西安西派8#</span><span>24.1.2</span><span>1149㎡</span></p></li>
+			<li><p><span>西安西派7#</span><span>24.1.4</span><span>1149㎡</span></p></li>
+			<li><p><span>西安西派9#（变层）</span><span>24.1.6</span><span>82㎡</span></p></li>
+			<li><p><span>西安西派样板间</span><span>24.1.7</span><span>15㎡</span></p></li>
+			<li><p><span>西安西派6#</span><span>24.1.17</span><span>1092㎡</span></p></li>
+			<li><p><span>西安西派5#</span><span>24.1.26</span><span>1260㎡</span></p></li>
+			
+			
+           
+          </ul>
+        </div>
+        <div class="boxfoot" ></div>
+      </div> -->
+    <!-- </li>
+  </ul> -->
+  <!-- <div class="copyright"> </div> -->
+<!-- </div> -->
+	
+	<!-- <div class="mainbox2">
+  <ul class="clearfix">
+    <li> -->
+		
+		<!-- <div class="boxall" style="height: 100%">
+        <div class="alltitle">生产完成情况
+			<div class="pulll_right">
+			<a href="#"><span></span>已完成</a>
+			<a href="#"><span></span>未完成</a>
+			</div>
+			</div>
+       <div class="boxnav">
+		  <ul class="btbox">
+		   <li id="bt01"></li>
+		   <li id="bt02"></li>
+		   <li id="bt03"></li>
+		
+		   </ul>
+		  </div>
+        <div class="boxfoot"></div>
+      </div> -->
+		
+    <!-- </li>
+    <li> -->
+		  <!-- <div class="boxall" style="height:100%">
+        <div class="alltitle">铝模车间在手项目生产情况表
+			  <div class="pulll_right sebtn" >
+			 <a href="#" class="active">本月</a> 
+			
+			</div>
+			  </div>
+          <div class="boxnav" id="echart5"></div> 
+        
+        
+        <div class="boxfoot"></div>
+      </div> -->
+	  <!-- </li>
+	  <li> -->
+		  <!-- <div class="boxall" style="height:100%"> -->
+        <!-- <div class="alltitle">铝模车间生产现场人效及产能公示表
+			  <div class="pulll_right sebtn" >
+			<a href="#" class="active">近七天</a>
+			
+			</div> -->
+			  <!-- </div> -->
+         <!-- <div class="boxnav" id="echart4"></div> -->
+        
+        
+        <!-- <div class="boxfoot"></div> -->
+      <!-- </div>
+	  </li> -->
+	  
+		<!-- </ul>
+		</div> -->
+
+<script language="JavaScript" src="js/js.js"></script> 
+<script type="text/javascript" src="js/echarts.min.js"></script> 
+<script type="text/javascript" src="js/china.js"></script> 
+<script type="text/javascript" src="js/area_echarts.js"></script> 
+<script src="js/jquery.liMarquee.js"></script> 
+<script>
+$(function(){
+	$('.wrap1,.wrap,.adduser').liMarquee({
+		direction: 'up',//身上滚动 
+		runshort: false,//内容不足时不滚动
+		scrollamount: 20//速度
+	});
+});
+	
+</script> 
+
+
+<script type="text/javascript">
+		$('.counter').countUp();
+  </script>
+</body>
+</html>
