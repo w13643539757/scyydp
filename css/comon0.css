@@ -104,8 +104,8 @@ html,body{height: 100%;}
 .map{  position:relative; height: 100%; z-index: 9; width: 100%;}
 .map4{ width: 200%; height:100%;  position: relative; left: -50%; top: 4%; margin-top: .2rem; z-index: 5;}
 
-.map1{ width:100%; z-index: 2;top:2.1rem; left: 6.5rem;  animation: myfirst2 15s infinite linear;}
-.map2{ width:100%; top:2rem; left: 2rem; z-index: 3; opacity: 0.2; animation: myfirst 10s infinite linear;}
+.map1{ width:100%; z-index: 2;top:2.38rem; left: 2.26rem;  animation: myfirst2 15s infinite linear;}
+.map2{ width:100%; top:2.78rem; left: 2.63rem; z-index: 3; opacity: 0.2; animation: myfirst 10s infinite linear;}
 .map3{ width:100%; top:3rem; left: 3rem; z-index: 1; transform: scale(.8); opacity: .6}
 .map1,.map2,.map3{ position:absolute;}
 
